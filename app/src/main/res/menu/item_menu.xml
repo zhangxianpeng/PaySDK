@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="Add"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_remind"
+        android:orderInCategory="100"
+        android:title="用Retrofit网络请求框架申请数据"
+        android:icon="@mipmap/ic_launcher"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_listview"
+        android:orderInCategory="100"
+        android:title="用UrlConnection网络请求框架申请数据"
+        app:showAsAction="never"/>
+
+</menu>
